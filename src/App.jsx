@@ -1,12 +1,11 @@
-// src/App.jsx
-import './App.css'; // Import your styles
+import './App.css';
 import Header from './Header';
 import Box from './Box';
 
 function App() {
-  // Requirement: Isolation - all data injected via Props
+
   const studentData = {
-    name: "Juan Dela Cruz",
+    name: "LORAINE ESCRITOR",
     code: "CPEITEL"
   };
 
