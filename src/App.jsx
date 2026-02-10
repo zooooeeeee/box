@@ -1,18 +1,17 @@
 import './App.css';
-import Header from './Header';
-import Box from './Box';
+import Header from './Header.jsx'; // Add .jsx here
+import Box from './Box.jsx';       // Add .jsx here
 
 function App() {
-
-  const studentData = {
+  const data = {
     name: "LORAINE ESCRITOR",
-    code: "CPEITEL"
+    subject: "CPEITEL"
   };
 
   return (
-    <div className="container">
-      <Header surname={studentData.name} />
-      <Box subjectCode={studentData.code} />
+    <div className="app-container">
+      <Header surname={data.name} />
+      <Box subjectCode={data.subject} />
     </div>
   );
 }
